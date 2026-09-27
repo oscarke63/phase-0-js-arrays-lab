@@ -1,6 +1,23 @@
 // Write your code here
+// Product Inventory Management System
 
+// Create the Product Inventory Array
+const products = ["Laptop", "Phone", "Headphones", "Monitor"];
 
+// Access Product Information
+function logFirstProduct() {
+  console.log(products[0]);
+}
+
+// Update Product Information
+function updateProductName(position, newName) {
+  products[position] = newName;
+}
+
+// Remove a Product
+function removeLastProduct() {
+  products.pop();
+}
 
 // Export the necessary parts for testing
 module.exports = {
